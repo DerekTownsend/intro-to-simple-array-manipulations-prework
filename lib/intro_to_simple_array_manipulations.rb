@@ -21,9 +21,11 @@ end
 def using_shift(array)
   temp=array.first
   array.shift
+  temp
 end
 
 def shift_with_args(array)
+  temp=array.first(2)
   array.shift(2)
 end
 
