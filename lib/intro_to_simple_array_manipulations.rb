@@ -7,11 +7,15 @@ def using_unshift(array,element)
 end
 
 def using_pop(array)
+  temp=array.last(2)
   array.pop
+  temp
 end
 
 def pop_with_args(array)
+  temp=array.last(2)
   array.pop(2)
+  temp
 end
 
 def using_shift(array)
@@ -35,7 +39,7 @@ def using_uniq(array)
 end
 
 def using_flatten(array)
-
+  
 end
 
 def using_delete(array,element)
